@@ -1,46 +1,10 @@
-/* C83737 red 1C2224 blue  00AA44 green FFCC00 yellow*/
+
 
 html, body{
 	font-family: 'Staatliches', cursive;
-
-
 	background-color:#1C2224;
 }
 
-
-.content{
-	padding:10px;
-}
-
-#your_answer{
-	text-align: center;
-	color:white;
-	border: 3px solid #FFCC00;
-	border-radius: 3px;
-	font-family: 'Staatliches', cursive;
-	background-color:#1C2224;
-	height: 2em;
-
-}
-
-.button{
-	font-family: 'Staatliches', cursive;
-	background-color:#FFCC00;
-	border: 3px solid #1C2224;
-	border-radius: 5px;
-}
-
-.button:hover{
-	background-color:#1C2224;
-	border-color: #FFCC00;
-	color: #FFCC00;
-
-}
-
-.none{
-	display: none;
-	margin-bottom:1em;
-}
 .header{
 	text-align: center;
 	color: white;

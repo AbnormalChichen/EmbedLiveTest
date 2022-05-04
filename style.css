@@ -7,7 +7,7 @@ html, body{
 	background-color:#1C2224;
 }
 
-/*.container{
+.container{
 	
 
 	width:500px;
@@ -16,12 +16,12 @@ html, body{
 
 
 	padding: 15px;
-	background-color: white;
+	
 	border-radius: 10px;
 	text-align:center;
-	border:5px solid #FFCC00;
+	
 }
-*/
+
 
 .content{
 	padding:10px;

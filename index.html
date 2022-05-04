@@ -1,0 +1,39 @@
+<DOCTYPE html>
+<html>
+	<head> 
+		<meta charset="UTF-8">
+		<link href="style.css" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet"> 
+
+		<title> Number Guessing Game </title>
+	</head>	
+	<body>
+
+		<h1 class="header"> Number Guessing Game </h1>
+
+		<div class="container">
+
+			<div class="content" id="question"> What's your name? </div>
+
+			<div class="content"> <input id="your_answer"> </div>
+
+			<div class="content" id="message"></div>
+
+			<div id="attempts"> </div>
+			<div id="correct_answers"> </div>
+
+			<div class="none" id="instructions"> You're going to be presented with a question that has a number for an answer. Your job is to try and guess that number. Also, just to be nice, I'll tell you if you guess too high or too low and you'll get another try.  </div>
+
+
+
+			<div class="button_container"> 
+				<div class="content button" id="submit" onclick="check();"> Submit </div>
+				<div class="content button none" id="yes" onclick="check();"> Yes </div>
+				<div class="content button none" id="no" onclick="no();"> No</div>
+			</div>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
